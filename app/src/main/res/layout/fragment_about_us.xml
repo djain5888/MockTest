@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    tools:context="UI.Activities.MainActivity">
+
+    <TextView
+        android:id="@+id/website_instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:text="ABOUT US"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Email:"
+            android:textSize="15sp"
+            android:layout_marginTop="160dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:id="@+id/emailsending"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="support@iniestawebtech.com"
+            android:textSize="15sp"
+            android:layout_marginTop="160dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="115dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact us:"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="5dp"
+            />
+        <TextView
+            android:id="@+id/contactus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7408405853 / 7905829756"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="115dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About us:  "
+            android:textSize="15sp"
+            android:layout_marginTop="280dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:id="@+id/urllink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="http://iniestawebtech.com "
+            android:layout_marginTop="280dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="115dp"
+            />
+
+        <Button
+            android:id="@+id/btn_about_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/gradient"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:text="Go To Dashboard"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+
+</RelativeLayout>
+
+
+
+
+
+

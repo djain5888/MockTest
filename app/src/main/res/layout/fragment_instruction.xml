@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context="UI.Activities.MainActivity">
+
+
+        <TextView
+            android:id="@+id/website_instruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:text="INSTRUCTIONS"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:textAlignment="center"
+            android:maxLines="10"
+            android:text="#Total Questions = 50\n#Each question carries 2 mark.\n#Each test is of 100 marks, 2 marks per each question.\n#Multiple choice questions with only ONE valid answer.\n#Click on the arrow button to load the next question.\n#Your score and ratings will be displayed at the end of the test!.
+"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    <Button
+        android:id="@+id/btn_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/gradient"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:text="Go To Dashboard"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+
+
+
+
+
+</RelativeLayout>
